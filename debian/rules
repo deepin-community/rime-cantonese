@@ -1,0 +1,12 @@
+#!/usr/bin/make -f
+
+%:
+	dh $@
+
+execute_before_dh_auto_configure:
+	./debian/regenerate-hkvariants-txt.sh
+
+override_dh_auto_configure:
+
+override_dh_auto_build:
+	debian-rime-processor default

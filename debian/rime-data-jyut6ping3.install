@@ -1,0 +1,4 @@
+build/jyut6ping3* usr/share/rime-data/build/
+jyut6ping3*.yaml usr/share/rime-data/
+opencc usr/share/rime-data/
+symbols_cantonese.yaml /usr/share/rime-data/
